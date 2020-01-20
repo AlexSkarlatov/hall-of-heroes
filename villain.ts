@@ -1,4 +1,4 @@
-export class Hero {
+export class Villain {
   id:number;
   name: string;
   powers: string;
