@@ -9,6 +9,7 @@ import { VillainsComponent } from './villains/villains.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { VillainDetailComponent } from './villain-detail/villain-detail.component';
 import { MessagesComponent } from './messages/messages.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MessagesComponent } from './messages/messages.component';
     VillainsComponent,
     HeroDetailComponent,
     VillainDetailComponent,
-    MessagesComponent
+    MessagesComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
